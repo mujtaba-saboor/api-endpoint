@@ -17,8 +17,6 @@ gem 'airbrake', '10.0.5'
 # gem 'image_processing', '~> 1.2'
 gem 'mysql2', '=0.5.3'
 gem 'will_paginate', '=3.3.0'
-# Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.4.2', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
