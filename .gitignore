@@ -1,0 +1,29 @@
+db/schema.rb
+/.bundle
+.rubocop.yml
+.DS_Store
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-*
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+.rvmrc
+.gems/*
+.ruby-version
+.ruby-gemset
+.rbenv-gemsets
+.bundle
+db/*.sqlite3
+db/sphinx/*
+# Only the branded schema files are kept; schema.rb is transient.
+db/schema.rb
+config/*.sphinx.conf
+tmp/*
+*.tmp*
+config/*.yml
+db/sphinx
+.DS_Store
+log/*
+config/deploy.rb
